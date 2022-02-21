@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,6 +14,7 @@
     <link rel="stylesheet" href="style.css">
     <script src="main.js" defer></script>
 </head>
+
 <body>
     <!-- Navbar -->
     <nav id="navbar">
@@ -31,11 +33,11 @@
             </ul>
         </div>
     </nav>
-    
+
     <!-- Home -->
     <section id="home">
-        <img src="image/me.jpg" alt="Groot's photo" class="home__avator">
-        <h1 class="home__title">Hello, <br/>I am Groot</h1>
+        <img src="image/i.jpg" alt="Groot's photo" class="home__avator">
+        <h1 class="home__title">Hello, <br />I am Groot</h1>
         <h2 class="home__description">I'm still a sprout, but I'll be a big tree.</h2>
         <button class="home__contact">CONTACT ME</button>
     </section>
@@ -130,15 +132,23 @@
                 <div class="tools">
                     <h3 class="skillset__title">Tools</h3>
                     <ul class="tools__list">
-                        <li><sapn>Visual Studio Code</sapn></li>
-                        <li><sapn>IntelliJ</sapn></li>
-                        <li><sapn>Eclipse IDE for Java</sapn></li>
+                        <li>
+                            <sapn>Visual Studio Code</sapn>
+                        </li>
+                        <li>
+                            <sapn>IntelliJ</sapn>
+                        </li>
+                        <li>
+                            <sapn>Eclipse IDE for Java</sapn>
+                        </li>
                     </ul>
                 </div>
                 <div class="etc">
                     <h3 class="skillset__title">Etc</h3>
                     <ul class="etc__list">
-                        <li><sapn>Git</sapn></li>
+                        <li>
+                            <sapn>Git</sapn>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -146,7 +156,83 @@
     </section>
 
     <!-- Work -->
-    <section id="work"></section>
+    <section id="work">
+        <h1>My work</h1>
+        <h3>Projects</h3>
+        <div class="work__categories">
+            <button class="category__btn">
+                ALL<span class="category__count">4</span>
+            </button>
+            <button class="category__btn">
+                Front-end<span class="category__count">2</span>
+            </button>
+            <button class="category__btn">
+                Back-end<span class="category__count">0</span>
+            </button>
+            <button class="category__btn">
+                Etc<span class="category__count">2</span>
+            </button>
+        </div>
+        <div class="work__project">
+            <a href="https://github.com/hwang-won" class="project" data-type="front-end" target="blank">
+                <img src="image/project/project1.png" alt="project1">
+                <div class="project_description">
+                    <h3>project1</h3>
+                    <span>project1</span>
+                </div>
+            </a>
+            <a href="https://github.com/hwang-won" class="project" data-type="front-end" target="blank">
+                <img src="image/project/project2.png" alt="project2">
+                <div class="project_description">
+                    <h3>project2</h3>
+                    <span>project2</span>
+                </div>
+            </a>
+            <a href="https://github.com/hwang-won" class="project" data-type="front-end" target="blank">
+                <img src="image/project/project3.png" alt="project3">
+                <div class="project_description">
+                    <h3>project3</h3>
+                    <span>project3</span>
+                </div>
+            </a>
+            <a href="https://github.com/hwang-won" class="project" data-type="front-end" target="blank">
+                <img src="image/project/project4.png" alt="project4">
+                <div class="project_description">
+                    <h3>project4</h3>
+                    <span>project4</span>
+                </div>
+            </a>
+            <a href="https://github.com/hwang-won" class="project" data-type="front-end" target="blank">
+                <img src="image/project/project5.png" alt="project5">
+                <div class="project_description">
+                    <h3>project5</h3>
+                    <span>project5</span>
+                </div>
+            </a>
+            <a href="https://github.com/hwang-won" class="project" data-type="front-end" target="blank">
+                <img src="image/project/project6.png" alt="project6">
+                <div class="project_description">
+                    <h3>project6</h3>
+                    <span>project6</span>
+                </div>
+            </a>
+            <a href="https://github.com/hwang-won" class="project" data-type="front-end" target="blank">
+                <img src="image/project/project7.png" alt="project7">
+                <div class="project_description">
+                    <h3>project7</h3>
+                    <span>project7</span>
+                </div>
+            </a>
+            <a href="https://github.com/hwang-won" class="project" data-type="front-end" target="blank">
+                <img src="image/project/project8.png" alt="project8">
+                <div class="project_description">
+                    <h3>project8</h3>
+                    <span>project8</span>
+                </div>
+            </a>
+        </div>
+
+    </section>
 
     <!-- Testimonials -->
     <section id="testimonials"></section>
@@ -154,4 +240,5 @@
     <!-- contact -->
     <section id="contact"></section>
 </body>
+
 </html>
