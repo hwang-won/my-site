@@ -99,11 +99,19 @@ p {
 
 /* Navbar */
 #navbar {
+  position: fixed;
+  width: 100%;
   display: flex;
   justify-content: space-between;
-  background-color: var(--color-navbar);
+  background-color: transparent;
   align-items: center;
   color: var(--color-white);
+  padding: 16px;
+  transition: all var(--animation-duration) ease-in-out;
+}
+
+#navbar.navbar--dark {
+  background-color: var(--color-light-navbar);
   padding: 16px;
 }
 
@@ -135,7 +143,7 @@ p {
 
 .navbar__toggle-btn {
   position: absolute;
-  top: 20px;
+  top: 16px;
   right: 32px;
   font-size: 24px;
   color: var(--color-white);
@@ -145,7 +153,8 @@ p {
 /* Home */
 #home {
   background: url(image/sky.jpg) center/cover no-repeat;
-  padding: 55px;
+  padding: 40px;
+  padding-top: 120px;
   text-align: center;
 }
 
