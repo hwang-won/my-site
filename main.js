@@ -10,3 +10,16 @@ document.addEventListener('scroll', () => {
         navbar.classList.remove('navbar--dark');
     }
 })
+
+// Handle scrolling when tapping on the menu
+const navbarMenu = document.querySelector('.navbar__menu');
+navbarMenu.addEventListener('click', (event) => {
+    const taget = event.target;
+    const link = taget.dataset.link;
+    if (link == null) {
+        return;
+    }
+    console.log(event.target.dataset.link);
+    const scrollTo = document.querySelector(link);
+    scrollTo.scrollIntoView({behavior: 'smooth'});
+});
