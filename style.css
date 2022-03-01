@@ -48,6 +48,11 @@ body {
   cursor: default;
 }
 
+.section__container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 a {
   text-decoration: none;
   color: var(--color-white);
@@ -73,7 +78,7 @@ h1 {
   font-size: var(--font-large);
   font-weight: var(--weight-bold);
   color: var(--color-black);
-  margin: 16px 0;
+  margin: 20px 0;
 }
 
 h2 {
@@ -106,14 +111,14 @@ p {
   background-color: transparent;
   align-items: center;
   color: var(--color-white);
-  padding: 16px;
+  padding: 0 16px 0 16px;
   transition: all var(--animation-duration) ease-in-out;
   z-index: 1;
 }
 
 #navbar.navbar--dark {
   background-color: var(--color-light-navbar);
-  padding: 16px;
+  padding: 0 16px 0 16px;
 }
 
 .navbar__logo {
